@@ -10,6 +10,13 @@
   "host_permissions": [
     "https://web.snapchat.com/*"
   ],
+  "content_scripts": [
+    {
+      "matches": ["https://web.snapchat.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {
