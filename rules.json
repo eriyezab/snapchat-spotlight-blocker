@@ -5,7 +5,7 @@
     "action": { "type": "block" },
     "condition": {
       "urlFilter": "web.snapchat.com/context/spotlight",
-      "resourceTypes": ["xmlhttprequest", "fetch", "main_frame", "sub_frame"]
+      "resourceTypes": ["xmlhttprequest", "main_frame", "sub_frame"]
     }
   },
   {
@@ -14,7 +14,25 @@
     "action": { "type": "block" },
     "condition": {
       "urlFilter": "web.snapchat.com/spotlight",
-      "resourceTypes": ["xmlhttprequest", "fetch", "main_frame", "sub_frame"]
+      "resourceTypes": ["xmlhttprequest", "main_frame", "sub_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "web.snapchat.com/df-spotlight-prod/batch_stories",
+      "resourceTypes": ["xmlhttprequest", "main_frame", "sub_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "web.snapchat.com/df-mixer-prod/soma/batch_stories",
+      "resourceTypes": ["xmlhttprequest", "main_frame", "sub_frame"]
     }
   }
 ]
