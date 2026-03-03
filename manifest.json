@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Snapchat Spotlight Blocker",
+  "version": "1.0",
+  "description": "Blocks Snapchat Spotlight API requests and hides the Spotlight UI tab",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "https://web.snapchat.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

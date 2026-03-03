@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "web.snapchat.com/context/spotlight",
+      "resourceTypes": ["xmlhttprequest", "fetch", "main_frame", "sub_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "web.snapchat.com/spotlight",
+      "resourceTypes": ["xmlhttprequest", "fetch", "main_frame", "sub_frame"]
+    }
+  }
+]
