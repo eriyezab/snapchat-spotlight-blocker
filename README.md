@@ -4,6 +4,8 @@ A Chrome extension that blocks Snapchat Spotlight so you can use Snapchat on you
 
 Spotlight API requests are blocked at the network level, so the feed never loads. The extension targets `web.snapchat.com` only — it has no effect on the mobile app.
 
+https://github.com/user-attachments/assets/4eef9dd9-3dc6-40f3-9239-92857c4359cf
+
 ## What it does
 
 - Blocks all network requests to Snapchat's Spotlight API (`/context/spotlight`, `/batch_stories`, etc.)
